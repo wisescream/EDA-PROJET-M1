@@ -24,7 +24,7 @@ Ce projet implémente une analyse complète de sentiments sur des critiques de f
 
 1. **Cloner le repository**
 ```bash
-git clone <votre-repo-url>
+git clone <https://github.com/wisescream/EDA-PROJET-M1>
 cd EDA
 ```
 
@@ -150,30 +150,6 @@ Pour éviter les problèmes de mémoire :
 - Fermez les autres applications
 - Réduisez `sample_size` si nécessaire
 - Redémarrez le kernel Jupyter entre les expérimentations
-
-## 🔍 Dépannage
-
-### Erreur "df is not defined"
-- Exécutez d'abord toutes les cellules d'import et de chargement de données
-
-### Erreur "No module named 'accelerate'"
-```bash
-pip install accelerate>=0.26.0
-```
-
-### Erreur SpaCy
-```bash
-python -m spacy download fr_core_news_sm
-```
-
-### Kernel non trouvé
-```bash
-python -m ipykernel install --user --name=eda_venv
-```
-
-## 📝 License
-
-Ce projet est sous licence MIT.
 
 ## 👤 Auteur
 
