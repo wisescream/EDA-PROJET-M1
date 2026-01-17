@@ -151,30 +151,6 @@ Pour éviter les problèmes de mémoire :
 - Réduisez `sample_size` si nécessaire
 - Redémarrez le kernel Jupyter entre les expérimentations
 
-## 🔍 Dépannage
-
-### Erreur "df is not defined"
-- Exécutez d'abord toutes les cellules d'import et de chargement de données
-
-### Erreur "No module named 'accelerate'"
-```bash
-pip install accelerate>=0.26.0
-```
-
-### Erreur SpaCy
-```bash
-python -m spacy download fr_core_news_sm
-```
-
-### Kernel non trouvé
-```bash
-python -m ipykernel install --user --name=eda_venv
-```
-
-## 📝 License
-
-Ce projet est sous licence MIT.
-
 ## 👤 Auteur
 
 Rayane Ibnatik
