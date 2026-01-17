@@ -24,7 +24,7 @@ Ce projet implémente une analyse complète de sentiments sur des critiques de f
 
 1. **Cloner le repository**
 ```bash
-git clone <votre-repo-url>
+git clone <https://github.com/wisescream/EDA-PROJET-M1>
 cd EDA
 ```
 
